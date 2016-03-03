@@ -19,7 +19,7 @@ requirements:
         - xlrd
         - xlwt
 
-run:
+    run:
         - python
         - pandas
         - numpy

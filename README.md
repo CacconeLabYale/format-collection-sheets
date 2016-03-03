@@ -34,16 +34,28 @@ For now just
 3. execute the following commands:
 
 ``` shell
-pip install
+pip install .
 ```
+
+OR:
+
+If you have conda there is no nee dto download anything before hand.  Simply execute the following:
+
+```
+conda install -c https://conda.anaconda.org/gusdunn format-collection-sheets
+```
+
+
 
 ### Requirements
 
 Compatibility
 -------------
+Only tested for Python 2.7.x
 
 Licence
 -------
+MIT
 
 Authors
 -------

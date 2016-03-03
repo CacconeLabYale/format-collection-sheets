@@ -1,0 +1,37 @@
+package:
+    name: format-collection-sheets
+    version: 0.0.1
+
+source:
+    git_url: https://github.com/CacconeLabYale/format-collection-sheets
+    git_tag: v2016.03.02.1
+
+build:
+    number: 1
+    skip: True [py3k]
+
+requirements:
+    build:
+        - python
+        - pandas
+        - numpy
+        - munch
+        - xlrd
+        - xlwt
+
+run:
+        - python
+        - pandas
+        - numpy
+        - munch
+        - xlrd
+        - xlwt
+
+test:
+    commands:
+        - format_collections --help
+
+about:
+    home: https://github.com/CacconeLabYale/format-collection-sheets
+    license: MIT
+    summary: 'Performs basic recoding of collection sheets to yield a standardized spreadsheet format.'

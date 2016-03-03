@@ -18,6 +18,7 @@ requirements:
         - munch
         - xlrd
         - xlwt
+        - click
 
     run:
         - python
@@ -26,6 +27,7 @@ requirements:
         - munch
         - xlrd
         - xlwt
+        - click
 
 test:
     commands:

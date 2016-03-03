@@ -19,7 +19,8 @@ setuptools.setup(
                       "numpy",
                       "munch",
                       "xlrd",
-                      "xlwt"
+                      "xlwt",
+                      "click"
                      ],
      entry_points='''
              [console_scripts]
